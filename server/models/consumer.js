@@ -5,6 +5,10 @@ const consumerSchema = new mongoose.Schema({
         required:true
 
     },
+    Name:{
+        type:String,
+        required:true
+    },
     Password:{
         type:String,
         required:true
